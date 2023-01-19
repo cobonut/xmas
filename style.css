@@ -1,0 +1,134 @@
+body{
+  font-family: 'Comfortaa', cursive;
+  background-color: skyblue;
+  padding: 20px;
+  margin: 0px;
+}
+
+h1{
+  color: navy;
+}
+
+h2{
+  color: navy;
+  text-shadow: 1px 1px 3px deeppink;
+}
+
+h3{
+  color: navy;
+}
+
+p{
+  color: navy;
+}
+
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 120px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: deeppink;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  color: navy;
+}
+
+li a:hover:not(.active) {
+  color: grey;
+}
+
+.content{
+margin-left:16%;
+padding:1px 16px;
+}
+
+table, th, td{
+margin-left: 17%;
+padding: 10px;
+box-shadow: 0 10px 10px 0 grey;
+}
+
+.button {
+  background-color: deeppink;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 16px;
+  margin-left: 17%;
+}
+
+span{
+  font-size: larger;
+}
+
+label{
+margin-left: 17%;
+vertical-align: top;
+}
+
+input[type=text], select {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 17%;
+}
+
+input[type=email] {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 17%;
+}
+
+input[type=number] {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 17%;
+}
+
+textarea {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 17%;
+  font-family: 'Comfortaa', cursive;  
+}

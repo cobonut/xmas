@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="blur's contact Us">
+    <meta name="keywords" content="blur, contact us, uk">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="image/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+    <style>
+        h2{margin-left: 17%;}
+    </style>
+</head>
+<body>
+    <div class="logo">
+    <a href="index.html">
+    <img src="image/blur_logo.png" alt="blur logo" style="height: 100px"></a>
+    </div>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="band.html">Our Album</a></li>
+        <li><a href="concert.html">Our Concert</a></li>
+        <li><a href="souvenir.html">Our Shop</a></li>
+        <li><a class="active"href="contactus.html">Contact Us</a></li>
+    </ul>
+    <h2>Please feel free to contact us.</h2>
+
+    <form action="action.php">
+        <label for="name">Name</label>
+            <input type="text" placeholder="Name"><br>
+        <label for="address 1">Address 1</label>
+            <input type="text" placeholder="Address 1"><br>
+        <label for="address 2">Address 2</label>
+            <input type="text" placeholder="Address 2"><br>
+        <label for="postcode">Postcode</label>
+            <input type="text" id="postcode" minlength="6" maxlength="9" placeholder="Postcode"><br>
+        <label for="country">Country</label>
+            <input type="text" placeholder="Country"><br>
+        <label for="email">Email</label>
+            <input type="email" placeholder="Email"><br>
+        <label for="phone">Phone</label>
+            <input type="number" placeholder="Phone Number"><br>
+        <label for="comments">Leave us Message</label>
+            <textarea name="comments" id="comments" cols="102" rows="10" placeholder="Message"></textarea><br>
+        <a class="button" href="">Submit</a>
+    </form>
+    
